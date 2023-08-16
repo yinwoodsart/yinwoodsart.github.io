@@ -1,0 +1,25 @@
+.header{
+    background-color: #000;
+}
+
+.header img{
+    width: 50px;
+}
+
+.header .my-navbar-toggler{
+    border: none;
+    color: #ccc;
+}
+
+.header .my-navbar-toggler.navbar-toggler:focus{
+    box-shadow: none;
+}
+
+body .my-offcanvas{
+    background-color: #000;
+    color: #ccc;
+  }
+  
+body .my-offcanvas .btn-close{
+--bs-btn-close-bg: url("assets/images/close-btn.svg")
+}

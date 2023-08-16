@@ -3,20 +3,20 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import Offcanvas from 'react-bootstrap/Offcanvas';
-import 'bootstrap/dist/css/bootstrap.min.css';
 import logo from './assets/images/yinwoods_logo.jpeg';
-import styles from './Header.module.css';
+import './Header.css';
 
 export const Header = () => {
     const expand = false;
   return (
-    <div className={styles.header}>
-
-        <Navbar  expand={expand} className="bg-body-tertiary mb-3">
+    <div className="header">
+        
+        <Navbar variant="dark" expand={expand} >
           <Container fluid>
             <Navbar.Brand href="#"><img src={logo} alt="Yin Woods"></img></Navbar.Brand>
-            <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`} />
+            <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`} className="my-navbar-toggler"/>
             <Navbar.Offcanvas
+              className="my-offcanvas"
               id={`offcanvasNavbar-expand-${expand}`}
               aria-labelledby={`offcanvasNavbarLabel-expand-${expand}`}
               placement="end"
