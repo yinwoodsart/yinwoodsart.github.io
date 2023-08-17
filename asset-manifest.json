@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.e01fc4d9.css",
-    "main.js": "/static/js/main.c804c242.js",
+    "main.css": "/static/css/main.2a61884b.css",
+    "main.js": "/static/js/main.54ad7ec1.js",
     "static/js/787.28cb0dcd.chunk.js": "/static/js/787.28cb0dcd.chunk.js",
     "static/media/yinwoods_logo.jpeg": "/static/media/yinwoods_logo.dff484dcfb6285f5fde7.jpeg",
     "index.html": "/index.html",
     "static/media/close-btn.svg": "/static/media/close-btn.2d6853254fc3e0699e3b.svg",
-    "main.e01fc4d9.css.map": "/static/css/main.e01fc4d9.css.map",
-    "main.c804c242.js.map": "/static/js/main.c804c242.js.map",
+    "main.2a61884b.css.map": "/static/css/main.2a61884b.css.map",
+    "main.54ad7ec1.js.map": "/static/js/main.54ad7ec1.js.map",
     "787.28cb0dcd.chunk.js.map": "/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e01fc4d9.css",
-    "static/js/main.c804c242.js"
+    "static/css/main.2a61884b.css",
+    "static/js/main.54ad7ec1.js"
   ]
 }
