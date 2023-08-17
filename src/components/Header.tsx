@@ -7,13 +7,19 @@ import logo from './assets/images/yinwoods_logo.jpeg';
 import './Header.css';
 
 export const Header = () => {
-    const expand = false;
+    const expand = 'lg';
+    //expand={'sm' | 'md' | 'lg' | 'xl' | 'xxl' | false}
   return (
     <div className="header">
         
         <Navbar variant="dark" expand={expand} >
           <Container fluid>
-            <Navbar.Brand href="#"><img src={logo} alt="Yin Woods"></img></Navbar.Brand>
+            <Navbar.Brand>
+                <div className="header-left">
+                    <a href="/"><img src={logo} className="logo" alt="Yin Woods"></img></a>
+                    <span className="title">YIN WOODS / Animator, Printmaker</span>
+                </div>
+            </Navbar.Brand>
             <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`} className="my-navbar-toggler"/>
             <Navbar.Offcanvas
               className="my-offcanvas"
@@ -27,21 +33,32 @@ export const Header = () => {
               </Offcanvas.Header>
               <Offcanvas.Body>
                 <Nav className="justify-content-end flex-grow-1 pe-3">
-                  <Nav.Link href="#action1">Home</Nav.Link>
-                  <Nav.Link href="#action2">About</Nav.Link>
+                  <Nav.Link href="/home">Home</Nav.Link>
                   <NavDropdown
-                    title="Dropdown"
-                    id={`offcanvasNavbarDropdown-expand-${expand}`}
+                    title="Short"
+                    id={`offcanvasNavbarDropdown-expand-${expand}-1`}
                   >
-                    <NavDropdown.Item href="#action3">Action</NavDropdown.Item>
-                    <NavDropdown.Item href="#action4">
-                      Another action
-                    </NavDropdown.Item>
-                    {/* <NavDropdown.Divider /> */}
-                    <NavDropdown.Item href="#action5">
-                      Something else here
+                    <NavDropdown.Item href="/routine">
+                        Routine
                     </NavDropdown.Item>
                   </NavDropdown>
+                  <Nav.Link href="/gif">GIF</Nav.Link>
+                  <NavDropdown
+                    title="Photography"
+                    id={`offcanvasNavbarDropdown-expand-${expand}-2`}
+                  >
+                    <NavDropdown.Item href="/pride">
+                        Pride
+                    </NavDropdown.Item>
+                    <NavDropdown.Item href="/antielab">
+                        Antielab
+                    </NavDropdown.Item>
+                    <NavDropdown.Item href="/london">
+                        London
+                    </NavDropdown.Item>
+                  </NavDropdown>
+                  <Nav.Link href="/contact">Contact</Nav.Link>
+                  <Nav.Link href="/supportme">$upport Me</Nav.Link>
                 </Nav>
                 
               </Offcanvas.Body>
