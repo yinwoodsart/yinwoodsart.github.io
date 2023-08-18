@@ -5,6 +5,7 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 import Offcanvas from 'react-bootstrap/Offcanvas';
 import logo from './assets/images/yinwoods_logo.jpeg';
 import './Header.css';
+import { Link } from "react-router-dom";
 
 export const Header = () => {
     const expand = 'lg';
@@ -16,8 +17,8 @@ export const Header = () => {
           <Container fluid>
             <Navbar.Brand>
                 <div className="header-left">
-                    <a href="/"><img src={logo} className="logo" alt="Yin Woods"></img></a>
-                    <span className="title">YIN WOODS / Animator, Printmaker</span>
+                    <Link to="/"><img src={logo} className="logo" alt="Yin Woods"></img></Link>
+                    <Link to="/home"><span className="title">YIN WOODS / Animator, Printmaker</span></Link>
                 </div>
             </Navbar.Brand>
             <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`} className="my-navbar-toggler"/>

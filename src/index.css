@@ -16,3 +16,16 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+main {
+  letter-spacing: 0.32px;
+  line-height: 28.8px;
+  margin-bottom: 78.95px;
+  margin-left: 39.5px;
+  margin-right: 39.5px;
+  margin-top: 47.37px;
+  max-width: 1500px;
+  padding-left: 78.95px;
+  padding-right: 78.95px;
+  color: #e0e0e0;
+}
