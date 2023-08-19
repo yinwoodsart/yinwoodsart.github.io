@@ -1,0 +1,30 @@
+.home{
+    padding-top: 140px;
+}
+
+@media only screen and (max-width: 921px) {
+    .home{
+        padding-top: 60px;
+    }
+}
+
+.home a {
+    display: block;
+    color: #ffc300;
+    text-decoration: none;
+    word-wrap: break-word;
+}
+.home a:hover {
+    text-decoration: underline;
+}
+.home h3{
+    text-align: center;
+    white-space: pre-wrap;
+    font-size: 12px;
+    font-family: Chivo;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.6em;
+    letter-spacing: .2em;
+    text-transform: uppercase;
+}
