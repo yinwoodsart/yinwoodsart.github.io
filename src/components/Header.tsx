@@ -8,12 +8,12 @@ import './Header.css';
 import { Link } from "react-router-dom";
 
 export const Header = () => {
-    const expand = 'lg';
-    //expand={'sm' | 'md' | 'lg' | 'xl' | 'xxl' | false}
+    const expanded = 'lg';
+    //expanded={'sm' | 'md' | 'lg' | 'xl' | 'xxl' | false}
   return (
     <div className="header">
         
-        <Navbar variant="dark" expand={expand} className="my-navbar">
+        <Navbar variant="dark" expand={expanded} className="my-navbar">
           <Container fluid>
             <Navbar.Brand>
                 <div className="header-left">
@@ -21,45 +21,45 @@ export const Header = () => {
                     <span className="title">YIN WOODS / Animator, Printmaker</span>
                 </div>
             </Navbar.Brand>
-            <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`} className="my-navbar-toggler"/>
+            <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expanded}`} className="my-navbar-toggler" />
             <Navbar.Offcanvas
               className="my-offcanvas"
-              id={`offcanvasNavbar-expand-${expand}`}
-              aria-labelledby={`offcanvasNavbarLabel-expand-${expand}`}
+              id={`offcanvasNavbar-expand-${expanded}`}
+              aria-labelledby={`offcanvasNavbarLabel-expand-${expanded}`}
               placement="end"
             >
               <Offcanvas.Header closeButton>
-                <Offcanvas.Title id={`offcanvasNavbarLabel-expand-${expand}`}>
+                <Offcanvas.Title id={`offcanvasNavbarLabel-expand-${expanded}`}>
                 </Offcanvas.Title>
               </Offcanvas.Header>
               <Offcanvas.Body>
                 <Nav className="justify-content-end flex-grow-1 my-offcavas-body">
-                  <Nav.Link as={Link} to="/home">Home</Nav.Link>
+                  <Nav.Link href="/home">Home</Nav.Link>
                   <NavDropdown
                     title="Short"
-                    id={`offcanvasNavbarDropdown-expand-${expand}-1`}
+                    id={`offcanvasNavbarDropdown-expand-${expanded}-1`}
                   >
-                    <NavDropdown.Item as={Link} to="/routine">
+                    <NavDropdown.Item href="/routine">
                         Routine
                     </NavDropdown.Item>
                   </NavDropdown>
-                  <Nav.Link as={Link} to="/gif">GIF</Nav.Link>
+                  <Nav.Link href="/gif">GIF</Nav.Link>
                   <NavDropdown
                     title="Photography"
-                    id={`offcanvasNavbarDropdown-expand-${expand}-2`}
+                    id={`offcanvasNavbarDropdown-expand-${expanded}-2`}
                   >
-                    <NavDropdown.Item as={Link} to="/pride">
+                    <NavDropdown.Item href="/pride">
                         Pride
                     </NavDropdown.Item>
-                    <NavDropdown.Item as={Link} to="/antielab">
+                    <NavDropdown.Item href="/antielab">
                         Antielab
                     </NavDropdown.Item>
-                    <NavDropdown.Item as={Link} to="/london">
+                    <NavDropdown.Item href="/london">
                         London
                     </NavDropdown.Item>
                   </NavDropdown>
-                  <Nav.Link as={Link} to="/contact">Contact</Nav.Link>
-                  <Nav.Link as={Link} to="/supportme">$upport Me</Nav.Link>
+                  <Nav.Link href="/contact">Contact</Nav.Link>
+                  <Nav.Link href="/supportme">$upport Me</Nav.Link>
                 </Nav>
                 
               </Offcanvas.Body>
