@@ -13,12 +13,12 @@ export const Header = () => {
   return (
     <div className="header">
         
-        <Navbar variant="dark" expand={expand} >
+        <Navbar variant="dark" expand={expand} className="my-navbar">
           <Container fluid>
             <Navbar.Brand>
                 <div className="header-left">
                     <Link to="/"><img src={logo} className="logo" alt="Yin Woods"></img></Link>
-                    <Link to="/home"><span className="title">YIN WOODS / Animator, Printmaker</span></Link>
+                    <span className="title">YIN WOODS / Animator, Printmaker</span>
                 </div>
             </Navbar.Brand>
             <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`} className="my-navbar-toggler"/>
@@ -33,33 +33,33 @@ export const Header = () => {
                 </Offcanvas.Title>
               </Offcanvas.Header>
               <Offcanvas.Body>
-                <Nav className="justify-content-end flex-grow-1 pe-3">
-                  <Nav.Link href="/home">Home</Nav.Link>
+                <Nav className="justify-content-end flex-grow-1">
+                  <Nav.Link as={Link} to="/home">Home</Nav.Link>
                   <NavDropdown
                     title="Short"
                     id={`offcanvasNavbarDropdown-expand-${expand}-1`}
                   >
-                    <NavDropdown.Item href="/routine">
+                    <NavDropdown.Item as={Link} to="/routine">
                         Routine
                     </NavDropdown.Item>
                   </NavDropdown>
-                  <Nav.Link href="/gif">GIF</Nav.Link>
+                  <Nav.Link as={Link} to="/gif">GIF</Nav.Link>
                   <NavDropdown
                     title="Photography"
                     id={`offcanvasNavbarDropdown-expand-${expand}-2`}
                   >
-                    <NavDropdown.Item href="/pride">
+                    <NavDropdown.Item as={Link} to="/pride">
                         Pride
                     </NavDropdown.Item>
-                    <NavDropdown.Item href="/antielab">
+                    <NavDropdown.Item as={Link} to="/antielab">
                         Antielab
                     </NavDropdown.Item>
-                    <NavDropdown.Item href="/london">
+                    <NavDropdown.Item as={Link} to="/london">
                         London
                     </NavDropdown.Item>
                   </NavDropdown>
-                  <Nav.Link href="/contact">Contact</Nav.Link>
-                  <Nav.Link href="/supportme">$upport Me</Nav.Link>
+                  <Nav.Link as={Link} to="/contact">Contact</Nav.Link>
+                  <Nav.Link as={Link} to="/supportme">$upport Me</Nav.Link>
                 </Nav>
                 
               </Offcanvas.Body>

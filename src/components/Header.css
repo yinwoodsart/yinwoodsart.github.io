@@ -1,7 +1,6 @@
 .header{
-    /* background-color: #000; */
-    padding-right: 5vw;
-    padding-left: 5vw;
+    padding-right: 4vw;
+    padding-left: 4vw;
 }
 
 .header .header-left {
@@ -9,22 +8,17 @@
     align-items: center;
 }
 
-@media only screen and (max-width: 921px) {
-    .header .header-left {
-        flex-direction: column;
-        align-items: flex-start;
-    }
-    
-  }
-
 .header .logo{
     width: 50px;
     margin-right:20px;
 }
-
+.header .my-navbar{
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
 .header .title{
     font-family: Chivo;
-    font-weight: 400;
+    font-weight: 800;
     font-style: normal;
     font-size: 13px;
     line-height: 2em;
@@ -32,6 +26,25 @@
     text-transform: none;
     color: #aaa;
 }
+
+@media only screen and (max-width: 921px) {
+    .header .header-left {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .header .logo{
+        width: 80px;
+    }
+    
+    .header .title{
+        font-weight: 400;
+        font-size: 13px;
+    }
+  }
+
+
+
+
 
 .header .offcanvas-body {
     font-family: chaparral-pro-caption;
@@ -46,15 +59,50 @@
 .header .my-navbar-toggler {
     border: none;
     color: #ccc;
-    padding-left: 0px;
+    padding: 0px;
 }
 
 .header .my-navbar-toggler .navbar-toggler-icon{
     width: 24px;
+    background-image: url("assets/images/burger.svg")
 }
 
 .header .my-navbar-toggler.navbar-toggler:focus{
     box-shadow: none;
+}
+
+.header .dropdown-menu.show, .my-offcanvas .dropdown-menu.show{
+    --bs-dropdown-bg: transparent;
+    padding-top:5px;
+}
+
+.header .dropdown-item:focus, .header .dropdown-item:hover, 
+.my-offcanvas .dropdown-item:focus, .my-offcanvas .dropdown-item:hover{
+    background-color: transparent;
+}
+.header .my-offcanvas .nav-link{
+    font-size: 14px;
+    padding-bottom:10px;
+}
+.my-offcanvas a.dropdown-item, .my-offcanvas .nav-link{
+    font-size: 36px;
+    font-weight: 400;
+    font-family: 'Chivo';
+    text-align: center;
+    padding-top: 0px;
+    padding-bottom:20px;
+    color: #aaa;
+    font-style: normal;
+    letter-spacing: .02em;
+    text-transform: none;
+    line-height: normal;
+}
+
+.my-offcanvas .offcanvas-header .btn-close, 
+.my-offcanvas .offcanvas-header .btn-close:hover{
+    color: var(--bs-btn-close-color);
+    text-decoration: none;
+    opacity: var(--bs-btn-close-hover-opacity);
 }
 
 body .my-offcanvas{
@@ -63,5 +111,11 @@ body .my-offcanvas{
   }
   
 body .my-offcanvas .btn-close{
---bs-btn-close-bg: url("assets/images/close-btn.svg")
+    margin-top:35px;
+    margin-right:10px;
+    --bs-btn-close-bg: url("assets/images/close-btn.svg")
+}
+
+body .my-offcanvas .offcanvas-body {
+    text-align: center;;
 }
