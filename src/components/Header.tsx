@@ -33,7 +33,7 @@ export const Header = () => {
                 </Offcanvas.Title>
               </Offcanvas.Header>
               <Offcanvas.Body>
-                <Nav className="justify-content-end flex-grow-1">
+                <Nav className="justify-content-end flex-grow-1 my-offcavas-body">
                   <Nav.Link as={Link} to="/home">Home</Nav.Link>
                   <NavDropdown
                     title="Short"

@@ -83,10 +83,21 @@
 .my-offcanvas .dropdown-item:focus, .my-offcanvas .dropdown-item:hover{
     background-color: transparent;
 }
-.header .my-offcanvas .nav-link{
+.header .my-offcanvas a.dropdown-item, .header .my-offcanvas .nav-link{
     font-size: 14px;
     padding-bottom:10px;
+    text-align: left;
 }
+
+.header .my-offcanvas a.dropdown-item{
+    padding-left: 10px;;
+}
+
+.header .my-offcavas-body{
+    padding-top:10px;
+    padding-right:30px;
+}
+
 .my-offcanvas a.dropdown-item, .my-offcanvas .nav-link{
     font-size: 36px;
     font-weight: 400;
