@@ -1,6 +1,10 @@
+import { useEffect } from "react";
 import './Home.css';
 
 export const Home = () => {
+    useEffect(() => {
+        document.title = 'Home - Yin Woods';
+      }, []);
     return (
         <main className="home">
             <h3>

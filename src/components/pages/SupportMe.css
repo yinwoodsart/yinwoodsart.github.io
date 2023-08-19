@@ -1,0 +1,62 @@
+.support-me{
+    font-family: Chivo;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 12px;
+    line-height: 1.6em;
+    letter-spacing: .2em;
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+    padding-top:90px;
+}
+
+.support-me p{
+    text-align:center;
+    white-space:pre-wrap;
+}
+
+.support-me p a{
+    font-family: 'Barlow Condensed', sans-serif;
+    line-height: 1.8em;
+    letter-spacing: .02em;
+    font-size: 16px;
+    color: #ffc300;
+    text-decoration: none;
+    text-rendering: optimizeLegibility;
+    text-transform: none;
+}
+
+.support-me .banner{
+    display: grid;
+    height: 100%;
+    padding-top:35px;
+    padding-bottom: 120px;
+}
+
+.support-me .banner img{
+    max-width: 44%;
+    margin: auto;
+}
+
+.support-me .thank-you{
+    font-family: 'Barlow Condensed', sans-serif;
+    text-transform: none;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 1.8em;
+    letter-spacing: .02em;
+    text-rendering: optimizeLegibility;
+    color: #e0e0e0;
+}
+
+.support-me .region{
+    padding-bottom: 25px;
+}
+
+@media only screen and (max-width: 640px) {
+    .support-me .banner img{
+        max-width: 90%;
+    }
+}

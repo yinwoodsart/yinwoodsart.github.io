@@ -50,7 +50,7 @@
   }
 
 .header .offcanvas-body {
-    font-family: chaparral-pro-caption;
+    font-family: 'Assistant', sans-serif;
     font-weight: 400;
     font-style: normal;
     font-size: 14px;
@@ -101,7 +101,7 @@
 .my-offcanvas a.dropdown-item, .my-offcanvas .nav-link{
     font-size: 36px;
     font-weight: 400;
-    font-family: 'Chivo';
+    font-family: 'Assistant', sans-serif;
     text-align: center;
     padding-top: 0px;
     padding-bottom:20px;
