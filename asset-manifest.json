@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.c7d0278a.css",
+    "main.css": "/static/css/main.9766b5fd.css",
     "main.js": "/static/js/main.60c0d833.js",
     "static/js/787.28cb0dcd.chunk.js": "/static/js/787.28cb0dcd.chunk.js",
     "static/media/yinwoods_colors.jpg": "/static/media/yinwoods_colors.e78486e06c27a833c063.jpg",
@@ -8,12 +8,12 @@
     "index.html": "/index.html",
     "static/media/close-btn.svg": "/static/media/close-btn.2d6853254fc3e0699e3b.svg",
     "static/media/burger.svg": "/static/media/burger.4d9b82acdafa060bcff0.svg",
-    "main.c7d0278a.css.map": "/static/css/main.c7d0278a.css.map",
+    "main.9766b5fd.css.map": "/static/css/main.9766b5fd.css.map",
     "main.60c0d833.js.map": "/static/js/main.60c0d833.js.map",
     "787.28cb0dcd.chunk.js.map": "/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c7d0278a.css",
+    "static/css/main.9766b5fd.css",
     "static/js/main.60c0d833.js"
   ]
 }
