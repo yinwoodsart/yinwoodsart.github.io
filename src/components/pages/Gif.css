@@ -1,5 +1,5 @@
 .gif{
-    margin: 5vw auto;
+    margin: 6vw auto;
     margin-bottom: 5vw;
     max-width: 1060px;
 
@@ -7,116 +7,76 @@
 }
 
 .gif-left-col, .gif-right-col {
-    width: 522px;
-    padding:16px;
+    width: 50%;
+    padding:15px;
 }
 
+.gif-left-col{
+    padding-left: 30px;
+}
+
+.gif-right-col{
+    padding-right: 30px;
+}
 
 .gif .gif-left-col div,
 .gif .gif-right-col div{
-    width:490px;
-    height:490px;
+    position: relative;
+    width: 100%;
+    padding-top: 100%; /* 1:1 Aspect Ratio */
     margin-bottom:30px;
 }
 
 .gif div.shorter{
-    height:390px;
+    padding-top: 80%; /* 4:5 Aspect Ratio */
 }
 
-@media only screen and (max-width: 1130px) {
-    .gif{
-        max-width: 820px;
-    }
-    .gif-left-col, .gif-right-col {
-        width: 400px;
-    }
-
-    .gif .gif-left-col div,
-    .gif .gif-right-col div{
-        width:370px;
-        height:370px;
-    }
-
-    .gif div.shorter{
-        height:295px;
-    }
+.gif iframe {
+    position:  absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
 }
+
 
 @media only screen and (max-width: 860px) {
     .gif{
-        max-width: 620px;
-    }
-    .gif-left-col, .gif-right-col {
-        width: 300px;
-    }
-
-    .gif .gif-left-col div,
-    .gif .gif-right-col div{
-        width:270px;
-        height:270px;
-    }
-
-    .gif div.shorter{
-        height:215px;
+        margin: 8vw auto;
     }
 }
 
 @media only screen and (max-width: 640px) {
     .gif{
-        max-width: 460px;
+        margin: 14vw auto;
+        max-width: 620px;
         flex-direction: column;
     }
     .gif-left-col, .gif-right-col {
-        width: 460px;
+        width: 100%;
     }
 
     .gif .gif-left-col div,
     .gif .gif-right-col div{
-        width:430px;
-        height:430px;
+        position: relative;
+        width: 100%;
+        padding-top: 100%; /* 1:1 Aspect Ratio */
+    }
+
+    .gif-left-col, .gif-right-col{
+        padding-left: 20px;
+        padding-right: 20px;
     }
 
     .gif div.shorter{
-        height:366px;
-    }
-}
-
-@media only screen and (max-width: 460px) {
-    .gif{
-        max-width: 375px;
-        flex-direction: column;
-    }
-    .gif-left-col, .gif-right-col {
-        width: 375px;
+        padding-top: 80%; /* 4:5 Aspect Ratio */
     }
 
-    .gif .gif-left-col div,
-    .gif .gif-right-col div{
-        width:345px;
-        height:345px;
-    }
-
-    .gif div.shorter{
-        height:275px;
-    }
-}
-
-@media only screen and (max-width: 320px) {
-    .gif{
-        max-width: 300px;
-        flex-direction: column;
-    }
-    .gif-left-col, .gif-right-col {
-        width: 300px;
-    }
-
-    .gif .gif-left-col div,
-    .gif .gif-right-col div{
-        width:270px;
-        height:270px;
-    }
-
-    .gif div.shorter{
-        height:215px;
+    .gif iframe {
+        position:  absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
     }
 }
