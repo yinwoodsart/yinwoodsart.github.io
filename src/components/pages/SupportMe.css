@@ -28,7 +28,6 @@
 }
 
 .support-me .banner{
-    display: grid;
     height: 100%;
     padding-top:35px;
     padding-bottom: 120px;
@@ -49,6 +48,7 @@
     letter-spacing: .02em;
     text-rendering: optimizeLegibility;
     color: #e0e0e0;
+    padding-bottom: 20px;
 }
 
 .support-me .region{
@@ -58,5 +58,8 @@
 @media only screen and (max-width: 640px) {
     .support-me .banner img{
         max-width: 90%;
+    }
+    .support-me .banner{
+        padding-bottom: 30px;
     }
 }
