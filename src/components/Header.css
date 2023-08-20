@@ -129,17 +129,17 @@
     opacity: var(--bs-btn-close-hover-opacity);
 }
 
-body .my-offcanvas{
+.my-offcanvas{
     background-color: #000;
     color: #ccc;
   }
   
-body .my-offcanvas .btn-close{
+.my-offcanvas .btn-close{
     margin-top:35px;
     margin-right:10px;
     --bs-btn-close-bg: url("assets/images/close-btn.svg")
 }
 
-body .my-offcanvas .offcanvas-body {
+.my-offcanvas .offcanvas-body{
     text-align: center;;
 }

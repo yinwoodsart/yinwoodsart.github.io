@@ -1,0 +1,30 @@
+.london{
+    font-family: Chivo;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 12px;
+    line-height: 1.6em;
+    letter-spacing: .2em;
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+    padding-top:90px;
+    width:90%;
+    margin: 0 auto;
+}
+
+.london .photo{
+    padding-top:105px;
+}
+
+.london .photo img{
+    width:100%;
+}
+@media only screen and (max-width: 640px) {
+    .london {
+        padding-top:40px;
+    }
+    .london .photo{
+        padding-top:30px;
+    }
+}
