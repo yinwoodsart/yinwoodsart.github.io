@@ -1,0 +1,26 @@
+.routine{
+    max-width:1500px;
+    margin: 0 auto;
+}
+
+.routine .carousel img{
+    width: auto;
+    max-height: 663px;
+}
+
+.routine .carousel{
+    white-space: nowrap;
+    overflow: hidden;
+    position: relative;
+    height:663px;
+    margin: 0px 30px;
+}
+.routine .carousel .image-group{
+    position: absolute;
+    transition: left 1s;
+    
+}
+.routine .carousel .image{
+    display: inline-block;
+    
+} 
