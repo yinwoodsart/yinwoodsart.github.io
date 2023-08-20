@@ -17,8 +17,8 @@ export const Gif = () => {
 
                 <div>
                     <iframe
-                        title="female"
-                        src="https://giphy.com/embed/0hJMpQiak6Abo8LmUW"
+                        title="tv"
+                        src="https://giphy.com/embed/fzxr3dQEcQeo5fwlCL"
                         width="100%" 
                         height="100%"
                         allowFullScreen={true}>
@@ -46,11 +46,10 @@ export const Gif = () => {
                         allowFullScreen={true}>
                     </iframe>
                 </div>
-
                 <div>
                     <iframe
-                        title="loop"
-                        src="https://giphy.com/embed/5n3GgK7YsYXJ1j6lPY"
+                        title="apple"
+                        src="https://giphy.com/embed/4CdEI8CX265Dc6k53N"
                         width="100%" 
                         height="100%"
                         allowFullScreen={true}>
