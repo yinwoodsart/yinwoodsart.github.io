@@ -18,6 +18,8 @@ export const Header = () => {
   const linkOnClick = () => { setCloseBtnToggle(b => !b) }
 
   return (
+    <>
+    
     <div className="header">
 
       <Navbar variant="dark" expand={expanded} className="my-navbar">
@@ -75,5 +77,7 @@ export const Header = () => {
       </Navbar>
 
     </div>
+    <div className="header-space"></div>
+    </>
   );
 }

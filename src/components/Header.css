@@ -1,6 +1,13 @@
 .header{
     padding-right: 5vw;
     padding-left: 5vw;
+    position: fixed;
+    width:100%;
+    z-index: 1;
+}
+
+.header-space {
+    height: 62.5px;
 }
 
 .header .header-left {
@@ -32,6 +39,9 @@
 }
 
 @media only screen and (max-width: 921px) {
+    .header-space {
+        height: 121.5px;
+    }
     .header .header-left {
         flex-direction: column;
         align-items: flex-start;
