@@ -28,9 +28,9 @@ export const Routine = () => {
       }, [left, index]);
     return (
       <main className="routine">
-        
+        <h2 className="title">《 ROUTINE 》</h2>
         <div className="carousel">
-          <div className="image-group"  style={{left: left}}>
+          <div className="image-group"  style={{left: left + window.innerWidth / 10}}>
             <div className="image-row">
               <div className="image">
                   <img alt='' src={routine_poster_Eng} />
@@ -43,6 +43,19 @@ export const Routine = () => {
               </div>
             </div>
           </div>
+        </div>
+        <div >
+          <div className="content-block">
+          <h3 className="synopsis">synopsis</h3>
+          <p  className="synopsis-desc">
+            ROUTINE is an experimental animated short with monologues of individuals who feel oppressed by the system, yearn for change and the freedom for questioning.  
+          </p>
+          <h3 >Festival </h3>
+          <p>
+            <a href="http://www.newfilmmakers.com/tuesday-february-7th-20th-online/">NewFilmmakers - New York</a>
+          </p>
+          </div>
+          
         </div>
       </main>
     )

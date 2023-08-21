@@ -1,4 +1,5 @@
 .routine{
+    
     max-width:1500px;
     margin: 0 auto;
 }
@@ -12,7 +13,7 @@
     white-space: nowrap;
     overflow: hidden;
     position: relative;
-    padding-top:40%;
+    padding-top:45%;
     margin: 0px 30px;
 }
 .routine .carousel .image-group{
@@ -30,3 +31,96 @@
     display: block;
     height: 100%;
 } 
+
+.routine .title{
+    margin-top: 90px;
+    margin-bottom: 50px;
+    text-align: center;
+    white-space: pre-wrap;
+    font-size: 26px;
+    font-family: Chivo;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.5em;
+    letter-spacing: -.02em;
+    text-transform: none;
+    color: #ebebeb;
+    -webkit-font-smoothing: antialiased;
+}
+
+.routine .content-block{
+    width:50%;
+    margin: 0 auto;
+    margin-top: 80px;
+    margin-bottom:160px;
+}
+
+@media screen and (min-aspect-ratio: 1 / 1) and (min-width: 1920px){
+    .routine .title {
+        font-size: 38px;
+    }
+}
+
+@media screen and (min-aspect-ratio: 1 / 1) and (min-width: 1314px) and (max-width: 1920px){
+    .routine .title{
+        font-size: 1.97916667vw;
+    }
+}
+
+@media screen and (min-aspect-ratio: 1 / 1) and (max-width: 1314px){
+    .routine .title{
+        font-size: 26px;
+    }
+}
+
+@media only screen and (max-width: 921px) {
+    .routine .content-block{
+        width:80%;
+        margin-top: 35px;
+    }
+    .routine .title{
+        margin-top: 30px;
+    }
+}
+
+
+.routine h3 {
+    font-family: Chivo;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 12px;
+    line-height: 1.6em;
+    letter-spacing: .2em;
+    text-transform: uppercase;
+    color: #fff;
+    -webkit-font-smoothing: antialiased;
+}
+
+.routine .synopsis-desc {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 1.8em;
+    letter-spacing: .02em;
+    text-rendering: optimizeLegibility;
+    margin-top: 20px;
+}
+
+.routine p a{
+    color: #ffc300;
+    text-decoration: none;
+    word-wrap: break-word;
+    white-space: pre-wrap;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 1.8em;
+    letter-spacing: .02em;
+    text-rendering: optimizeLegibility;
+}
+
+.routine p a:hover{
+    text-decoration: underline;
+}
