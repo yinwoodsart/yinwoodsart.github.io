@@ -31,14 +31,16 @@ export const Routine = () => {
         
         <div className="carousel">
           <div className="image-group"  style={{left: left}}>
-            <div className="image">
-                <img alt='' src={routine_poster_Eng} />
-            </div>
-            <div className="image">
-                <img alt='' src={routine_still_square} />
-            </div>
-            <div className="image">
-                <img alt='' src={routine_still} />
+            <div className="image-row">
+              <div className="image">
+                  <img alt='' src={routine_poster_Eng} />
+              </div>
+              <div className="image">
+                  <img alt='' src={routine_still_square} />
+              </div>
+              <div className="image">
+                  <img alt='' src={routine_still} />
+              </div>
             </div>
           </div>
         </div>

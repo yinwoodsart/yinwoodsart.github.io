@@ -5,22 +5,28 @@
 
 .routine .carousel img{
     width: auto;
-    max-height: 663px;
+    height: 100%;
 }
 
 .routine .carousel{
     white-space: nowrap;
     overflow: hidden;
     position: relative;
-    height:663px;
+    padding-top:40%;
     margin: 0px 30px;
 }
 .routine .carousel .image-group{
     position: absolute;
+    top: 0;
     transition: left 1s;
-    
+    height: 100%;
+}
+
+.routine .carousel .image-group .image-row{
+    display:flex;
+    height:100%;
 }
 .routine .carousel .image{
-    display: inline-block;
-    
+    display: block;
+    height: 100%;
 } 
