@@ -1,21 +1,24 @@
 {
   "files": {
-    "main.css": "/static/css/main.a3c00d87.css",
-    "main.js": "/static/js/main.f8cde7de.js",
+    "main.css": "/static/css/main.f3b6b25e.css",
+    "main.js": "/static/js/main.6b1f5b24.js",
     "static/js/787.28cb0dcd.chunk.js": "/static/js/787.28cb0dcd.chunk.js",
+    "static/media/routine_poster_Eng.jpg": "/static/media/routine_poster_Eng.392355924c93c242a537.jpg",
     "static/media/london_2.jpeg": "/static/media/london_2.8b72ea05250f39902127.jpeg",
     "static/media/london_1.jpeg": "/static/media/london_1.5021b170da8615b9e6eb.jpeg",
     "static/media/yinwoods_colors.jpg": "/static/media/yinwoods_colors.e78486e06c27a833c063.jpg",
+    "static/media/routine_still.jpg": "/static/media/routine_still.aabe7ab72caacebca4ec.jpg",
+    "static/media/routine_still_square.jpg": "/static/media/routine_still_square.2a927b425bb67d51b547.jpg",
     "static/media/yinwoods_logo.jpeg": "/static/media/yinwoods_logo.dff484dcfb6285f5fde7.jpeg",
     "index.html": "/index.html",
     "static/media/close-btn.svg": "/static/media/close-btn.2d6853254fc3e0699e3b.svg",
     "static/media/burger.svg": "/static/media/burger.4d9b82acdafa060bcff0.svg",
-    "main.a3c00d87.css.map": "/static/css/main.a3c00d87.css.map",
-    "main.f8cde7de.js.map": "/static/js/main.f8cde7de.js.map",
+    "main.f3b6b25e.css.map": "/static/css/main.f3b6b25e.css.map",
+    "main.6b1f5b24.js.map": "/static/js/main.6b1f5b24.js.map",
     "787.28cb0dcd.chunk.js.map": "/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a3c00d87.css",
-    "static/js/main.f8cde7de.js"
+    "static/css/main.f3b6b25e.css",
+    "static/js/main.6b1f5b24.js"
   ]
 }
