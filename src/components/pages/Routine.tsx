@@ -13,10 +13,11 @@ export const Routine = () => {
         
         const lefTimeout = setTimeout(() => {
           const eles = document.getElementsByClassName('image');
-          const imageWidths: number[] = [0];
+          const imageWidths: number[] = [];
           for(let i = 0; i< eles.length -1; i++){
             imageWidths.push(eles.item(i)!.clientWidth);
           }
+          imageWidths.push(0);
           const widthSum = imageWidths.reduce((a, b) => a + b, 0)
           const newLeft = Math.abs(left) < widthSum? left - imageWidths[index]: 0;
           setIndex( i => (i + 1) % imageWidths.length);
