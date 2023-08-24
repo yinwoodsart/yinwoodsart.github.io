@@ -1,8 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.61d6e2c5.css",
-    "main.js": "/static/js/main.88766ff8.js",
+    "main.css": "/static/css/main.41ad271e.css",
+    "main.js": "/static/js/main.75d0a45a.js",
     "static/js/787.28cb0dcd.chunk.js": "/static/js/787.28cb0dcd.chunk.js",
+    "static/media/chickenDrumsticks01.jpg": "/static/media/chickenDrumsticks01.5034dd8f1cf0d5cafe05.jpg",
+    "static/media/chickendrumstick02.jpg": "/static/media/chickendrumstick02.a109e7fdcc8abb1daa47.jpg",
+    "static/media/Nov_30_2019_01.jpg": "/static/media/Nov_30_2019_01.ac2da8e71fe168880d25.jpg",
+    "static/media/flag01.jpg": "/static/media/flag01.fab4de558f2eceb1e701.jpg",
+    "static/media/PoliceCamera.jpg": "/static/media/PoliceCamera.4dec240bdfbc0f2cf07d.jpg",
+    "static/media/FirstAiders.jpg": "/static/media/FirstAiders.c17ca9b9575a9a1cb750.jpg",
+    "static/media/umbrella01.jpg": "/static/media/umbrella01.6f0bfe37a38e782e8707.jpg",
+    "static/media/Jan_3_2020_02.jpg": "/static/media/Jan_3_2020_02.c8ded24dbd6f8e4577d8.jpg",
+    "static/media/VforV_01.jpg": "/static/media/VforV_01.5fa32f430a6b290eb0ac.jpg",
+    "static/media/police01.jpg": "/static/media/police01.6f450c8e5050e0db88f2.jpg",
     "static/media/routine_poster_Eng.jpg": "/static/media/routine_poster_Eng.392355924c93c242a537.jpg",
     "static/media/london_2.jpeg": "/static/media/london_2.8b72ea05250f39902127.jpeg",
     "static/media/london_1.jpeg": "/static/media/london_1.5021b170da8615b9e6eb.jpeg",
@@ -13,12 +23,12 @@
     "index.html": "/index.html",
     "static/media/close-btn.svg": "/static/media/close-btn.2d6853254fc3e0699e3b.svg",
     "static/media/burger.svg": "/static/media/burger.4d9b82acdafa060bcff0.svg",
-    "main.61d6e2c5.css.map": "/static/css/main.61d6e2c5.css.map",
-    "main.88766ff8.js.map": "/static/js/main.88766ff8.js.map",
+    "main.41ad271e.css.map": "/static/css/main.41ad271e.css.map",
+    "main.75d0a45a.js.map": "/static/js/main.75d0a45a.js.map",
     "787.28cb0dcd.chunk.js.map": "/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.61d6e2c5.css",
-    "static/js/main.88766ff8.js"
+    "static/css/main.41ad271e.css",
+    "static/js/main.75d0a45a.js"
   ]
 }
