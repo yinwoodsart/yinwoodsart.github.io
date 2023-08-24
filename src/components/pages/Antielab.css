@@ -1,0 +1,99 @@
+.antielab{
+    max-width: 60%;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 70px;
+}
+
+.antielab .carousel .thumbs-wrapper{
+    margin: 10px 0;
+    margin-top: 18px;
+}
+
+.antielab .thumbs-wrapper .control-prev,
+.antielab .thumbs-wrapper .control-next{
+    /* display:none; */
+    top: 40px
+} 
+
+.antielab .carousel .thumb{
+    border: none;
+    margin-right: 1px;
+    padding: 0px;
+}
+
+.antielab .thumbs-wrapper .thumbs{
+    padding-left:0px;
+}
+.antielab .carousel.carousel-slider .control-arrow{
+    padding: 10px;
+    height:10%;
+    top: 45%;
+}
+
+.antielab .title{
+    text-align: center;
+    white-space: pre-wrap;
+    font-size: 38px;
+    line-height: 1.5em;
+    letter-spacing: -.02em;
+    text-transform: none;
+    color: #ebebeb;
+    font-family: Chivo;
+    font-weight: 400;
+    font-style: normal;
+    word-wrap: break-word;
+    text-rendering: optimizeLegibility;
+    padding-top: 180px;
+}
+
+.antielab .link{
+    padding-top:25px;
+    margin-bottom: 95px;
+    word-wrap: break-word;
+    text-align: center;
+    white-space: pre-wrap;
+    font-family: Chivo;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.6em;
+    letter-spacing: .2em;
+    text-transform: uppercase;
+    text-rendering: optimizeLegibility;
+    font-size: 12px;
+}
+.antielab .link a{
+    color: #ffc300;
+    text-decoration: none;
+}
+.antielab .link a:hover{
+    text-decoration: underline;
+}
+
+
+@media screen and (min-aspect-ratio: 1 / 1) and (min-width: 1314px) and (max-width: 1920px){
+    .antielab .title{
+        font-size: 1.97916667vw;
+    }
+}
+
+@media only screen and (max-width: 1314px){
+    .antielab .title{
+        font-size: 26px;
+        padding-top: 100px;
+    }
+}
+
+@media only screen and (max-width: 640px) {
+    .antielab .title{
+        padding-top: 50px;
+        font-size: 26px;
+    }
+    .antielab{
+        max-width: 90%;
+    }
+    .antielab .link{
+        margin-bottom: 30px;
+    }
+}
+
