@@ -1,0 +1,79 @@
+.pride{
+    max-width: 60%;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 0px;
+}
+
+
+.pride .title{
+    text-align: center;
+    white-space: pre-wrap;
+    font-size: 38px;
+    line-height: 1.5em;
+    letter-spacing: -.02em;
+    text-transform: none;
+    color: #ebebeb;
+    font-family: Chivo;
+    font-weight: 400;
+    font-style: normal;
+    word-wrap: break-word;
+    text-rendering: optimizeLegibility;
+    padding-top: 180px;
+}
+
+.pride .desc{
+    padding-top:25px;
+    margin-bottom: 95px;
+    word-wrap: break-word;
+    text-align: center;
+    white-space: pre-wrap;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 1.8em;
+    letter-spacing: .02em;
+    text-rendering: optimizeLegibility;
+}
+
+.pride .image-content{
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+.pride .image-content img{
+    width:100%;
+}
+@media screen and (min-aspect-ratio: 1 / 1) and (min-width: 1314px) and (max-width: 1920px){
+    .pride .title{
+        font-size: 1.97916667vw;
+    }
+}
+
+@media only screen and (max-width: 1314px){
+    .pride .title{
+        font-size: 26px;
+        padding-top: 100px;
+    }
+}
+
+@media only screen and (max-width: 1500px) {
+    .pride{
+        max-width: 90%;
+    }
+}
+
+@media only screen and (max-width: 640px) {
+    .pride .title{
+        padding-top: 50px;
+        font-size: 26px;
+    }
+    .pride .desc{
+        margin-bottom: 30px;
+    }
+    .pride .image-content{
+        padding-bottom: 30px;
+    }
+}
+
