@@ -3,28 +3,25 @@ import './Home.css';
 
 export const Home = () => {
     useEffect(() => {
-        document.title = 'Home - Yin Woods';
+        document.title = 'Home - Yin';
       }, []);
     return (
         <main className="home">
             <h3>
-                <a href="https://vimeo.com/yinwoods">Vimeo </a>
-                <a href="https://www.youtube.com/yinwoods">Youtube</a>
-                <a href="https://giphy.com/yinwoods">GIPHY</a>
-                <a href="https://www.twitch.tv/yinwoods">twitch</a>
-                <a href="https://yinwoods.bandcamp.com">Bandcamp</a>
-                <a href="https://soundcloud.com/yinwoods">Soundcloud</a>
-                <a href="https://www.behance.net/yinwoods">Behance</a>
-                <a href="https://open.spotify.com/artist/6hzV0C9obuB36iZ8gPmYwK?si=SZqV2cSvTceVV75OZ-VNMA">Spotify </a>
+                <a href="https://vimeo.com/yinwrong">Vimeo </a>
+                <a href="https://www.youtube.com/@yintooooyang">Youtube</a>
+                <a href="https://giphy.com/yintooooyang">GIPHY</a>
+                <a href="https://yintooooyang.bandcamp.com">Bandcamp</a>
+                <a href="https://soundcloud.com/yintooooyang">Soundcloud</a>
+                <a href="https://www.behance.net/yintooooyang">Behance</a>
+                <a href="https://open.spotify.com/artist/5Q7D4aJOOSP3GXq1amVBkn?si=Kv1FIWYfRXC91E90mhGnFw">Spotify </a>
                 <br />
-                <a href="https://www.goodreads.com/yinwoods">Goodreads</a>
-                <a href="https://letterboxd.com/yinwoods/">Letterboxd</a>
-                <a href="https://yinwoods.getarchive.net">Archives</a>
-                <a href="https://www.pinterest.com/yinwoods_/">Pinterest</a>
-                <a href="https://twitter.com/yinwoods_/">Twitter</a>
+                <a href="https://www.goodreads.com/yinwrong">Goodreads</a>
+                <a href="https://letterboxd.com/yinwrong/">Letterboxd</a>
+                <a href="https://www.pinterest.com/yinwrong/">Pinterest</a>
+                <a href="https://twitter.com/yintooooyang/">Twitter</a>
                 <br />
-                <a href="https://venmo.com/yinwoods">Venmo</a>
-                <a href="https://cash.app/$yinwoods">CASHAPP</a>
+                <a href="https://venmo.com/yinwrong">Venmo</a>
             </h3>
         </main>)
 }

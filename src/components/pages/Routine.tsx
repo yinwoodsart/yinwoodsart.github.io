@@ -9,7 +9,7 @@ export const Routine = () => {
     const [index, setIndex] = useState(0);
 
     useEffect(() => {
-        document.title = 'Routine - Yin Woods';
+        document.title = 'Routine - Yin';
         
         const lefTimeout = setTimeout(() => {
           const eles = document.getElementsByClassName('image');

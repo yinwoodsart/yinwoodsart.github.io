@@ -5,10 +5,13 @@ export const Gif = () => {
         <main className="gif">
             <div className="gif-left-col">
                
+                {/* <div className="shorter">
+
+                </div> */}
                 <div>
-                    <iframe
-                        title="cube"
-                        src="https://giphy.com/embed/C7hzgTI3TbXT8tRaqz"
+                    <iframe 
+                        title="eyes1"
+                        src="https://giphy.com/embed/76G73yyx2ECSIkWeng" 
                         width="100%" 
                         height="100%"
                         allowFullScreen={true}>
@@ -17,55 +20,28 @@ export const Gif = () => {
 
                 <div>
                     <iframe
-                        title="tv"
-                        src="https://giphy.com/embed/fzxr3dQEcQeo5fwlCL"
+                        title="eyes2"
+                        src="https://giphy.com/embed/Q9Qmp62OSdEVwrBn4v"
                         width="100%" 
-                        height="100%"
-                        allowFullScreen={true}>
-                    </iframe>
-                </div>
-
-                <div>
-                    <iframe
-                        title="windy"
-                        src="https://giphy.com/embed/0fzAIrPwmdr9h8GfEc"
-                        width="100%" 
-                        height="100%"
+                        height="60%"
                         allowFullScreen={true}>
                     </iframe>
                 </div>
 
             </div>
             <div className="gif-right-col">
-                <div className="shorter">
-                    <iframe
-                        title="triangle"
-                        src="https://giphy.com/embed/QWAd9mSAypS0FE1u7s"
-                        width="100%" 
-                        height="100%"
-                        allowFullScreen={true}>
-                    </iframe>
-                </div>
+                
                 <div>
                     <iframe
-                        title="apple"
-                        src="https://giphy.com/embed/4CdEI8CX265Dc6k53N"
+                        title="eyes3"
+                        src="https://giphy.com/embed/XFZ09f4X5rxLlvItoE"
                         width="100%" 
                         height="100%"
                         allowFullScreen={true}>
                     </iframe>
                 </div>
-
-                <div>
-                    <iframe
-                        title="flower"
-                        src="https://giphy.com/embed/2qHtjXdQND8svHrwih"
-                        width="100%" 
-                        height="100%"
-                        allowFullScreen={true}>
-                    </iframe>
-                </div>
-
+                
+                
             </div>
 
 

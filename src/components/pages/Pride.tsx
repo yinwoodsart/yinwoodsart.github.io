@@ -11,7 +11,7 @@ import pride_hk_10 from '../assets/images/pride_hk_10.jpg';
 
 export const Pride = () => {
     useEffect(() => {
-        document.title = 'Pride - Yin Woods';
+        document.title = 'Pride - Yin';
       }, []);
     return (
     <main className="pride">

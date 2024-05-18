@@ -26,8 +26,8 @@ export const Header = () => {
         <Container fluid>
           <Navbar.Brand>
             <div className="header-left">
-              <Link to="/"><img src={logo} className="logo" alt="Yin Woods"></img></Link>
-              <span className="title">YIN WOODS / Animator, Printmaker</span>
+              <Link to="/"><img src={logo} className="logo" alt="Yin"></img></Link>
+              <span className="title">YIN / Animator, Printmaker</span>
             </div>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expanded}`} className="my-navbar-toggler" />

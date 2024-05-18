@@ -6,7 +6,7 @@ import './London.css';
 
 export const London = () => {
   useEffect(() => {
-    document.title = 'London - Yin Woods';
+    document.title = 'London - Yin';
   }, []);
   return (
     <main className="london">

@@ -15,7 +15,7 @@ import VforV_01 from '../assets/images/VforV_01.jpg';
 
 export const Antielab = () => {
     useEffect(() => {
-        document.title = 'Antielab - Yin Woods';
+        document.title = 'Antielab - Yin';
       }, []);
     return (
       <main className="antielab">

@@ -4,7 +4,7 @@ import './SupportMe.css';
 
 export const SupportMe = () => {
     useEffect(() => {
-        document.title = 'Support Me - Yin Woods';
+        document.title = 'Support Me - Yin';
       }, []);
     return (
         <main className="support-me">
@@ -16,17 +16,14 @@ export const SupportMe = () => {
             <div>
                 <div className="region">International</div>
                 <p>
-                    <a href="https://www.buymeacoffee.com/yinwoods_">Buy Me A Coffee </a>
-                    <br />
-                    <a href="https://ko-fi.com/yinwoods">Ko-Fi</a>
+                    <a href="https://www.buymeacoffee.com/yintooooyang">Buy Me A Coffee </a>
                     <br />
                     <a href="https://buy.stripe.com/8wM5kMckM90RgcobIL">Stripe</a>
                 </p>
                 <div className="region">United States</div>
                 <p>
-                    <a href="https://account.venmo.com/u/yinwoods">Venmo</a>
-                    <br />
-                    <a href="https://cash.app/$yinwoods">Cash App</a>
+                    <a href="https://venmo.com/yinwrong">Venmo</a>
+                    
                 </p>
                 <p className="thank-you">Thank you for your support!<br />It helps me to survive in patriarchy as a female artist.</p>
             </div>

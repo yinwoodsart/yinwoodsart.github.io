@@ -18,6 +18,8 @@
     line-height: 1.8em;
     letter-spacing: .02em;
     text-rendering: optimizeLegibility;
+    display: table;
+    clear: both;
 }
 
 .contact .desc img {
