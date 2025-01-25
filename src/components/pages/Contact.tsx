@@ -11,13 +11,13 @@ export const Contact = () => {
       <main className="contact">
         <div className="desc">
           <img alt='' src={yinwoods_head}></img>
-          <Link to="/">Yin</Link> is a Hong Kong-born Artist, Animator and Printmaker who produces electronic mixes, experimental animation and short films; Her work explores social systems and conflict, identities, and gender stereotypes.
+          <Link to="/">Yin</Link> is a Hong Kong-born, North West England based Artist, Animator and Printmaker who produces electronic mixes, experimental animation and short films.
 
           <div >
             <br/>
             <br/>
             <br/>
-            HELLO! THIS IS YIN, YOU CAN EMAIL DIRECTLY!
+            HELLO! THIS IS YIN, YOU CAN EMAIL ME DIRECTLY!
             <br/>
             contact@yinwrong.com
           </div>
