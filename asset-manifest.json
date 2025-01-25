@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.1ceb3800.css",
-    "main.js": "/static/js/main.1ed76ea1.js",
+    "main.js": "/static/js/main.32373a11.js",
     "static/js/787.28cb0dcd.chunk.js": "/static/js/787.28cb0dcd.chunk.js",
     "static/media/02.jpg": "/static/media/02.e4d3b793aca3e4c1a2e6.jpg",
     "static/media/chickenDrumsticks01.jpg": "/static/media/chickenDrumsticks01.5034dd8f1cf0d5cafe05.jpg",
@@ -28,15 +28,16 @@
     "static/media/routine_still.jpg": "/static/media/routine_still.aabe7ab72caacebca4ec.jpg",
     "static/media/routine_still_square.jpg": "/static/media/routine_still_square.2a927b425bb67d51b547.jpg",
     "static/media/yinwoods_head.jpeg": "/static/media/yinwoods_head.b1bdeed686ecac4d37f8.jpeg",
+    "static/media/yinwoods_logo.jpeg": "/static/media/yinwoods_logo.dff484dcfb6285f5fde7.jpeg",
     "index.html": "/index.html",
     "static/media/close-btn.svg": "/static/media/close-btn.2d6853254fc3e0699e3b.svg",
     "static/media/burger.svg": "/static/media/burger.4d9b82acdafa060bcff0.svg",
     "main.1ceb3800.css.map": "/static/css/main.1ceb3800.css.map",
-    "main.1ed76ea1.js.map": "/static/js/main.1ed76ea1.js.map",
+    "main.32373a11.js.map": "/static/js/main.32373a11.js.map",
     "787.28cb0dcd.chunk.js.map": "/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1ceb3800.css",
-    "static/js/main.1ed76ea1.js"
+    "static/js/main.32373a11.js"
   ]
 }
