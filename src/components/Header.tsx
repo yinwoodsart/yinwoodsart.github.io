@@ -3,7 +3,7 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import Offcanvas from 'react-bootstrap/Offcanvas';
-import logo from './assets/images/yinwoods_logo.jpeg';
+import logo from './assets/images/yinwrong_logo_01.jpg';
 import './Header.css';
 import { Link } from "react-router-dom";
 import { useEffect, useState } from "react";
@@ -26,8 +26,8 @@ export const Header = () => {
         <Container fluid>
           <Navbar.Brand>
             <div className="header-left">
-              <Link to="/"><img src={logo} className="logo" alt="Yin"></img></Link>
-              <span className="title">YIN / Animator, Printmaker</span>
+              {/* <Link to="/"><img src={logo} className="logo" alt="Yin"></img></Link> */}
+              <span className="title">YIN WRONG / Animator, Illustrator, Printmaker</span>
             </div>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expanded}`} className="my-navbar-toggler" />
@@ -43,17 +43,17 @@ export const Header = () => {
             </Offcanvas.Header>
             <Offcanvas.Body>
               <Nav className="justify-content-end flex-grow-1 my-offcavas-body">
-                <Nav.Link as={Link} onClick={linkOnClick} to="/home">Home</Nav.Link>
-                <NavDropdown
+                <Nav.Link as={Link} onClick={linkOnClick} to="/home">Link</Nav.Link>
+                {/* <NavDropdown
                   title="Short"
                   id={`offcanvasNavbarDropdown-expand-${expanded}-1`}
                 >
                   <NavDropdown.Item as={Link} onClick={linkOnClick} to="/routine">
                     Routine
                   </NavDropdown.Item>
-                </NavDropdown>
+                </NavDropdown> */}
                 <Nav.Link as={Link} onClick={linkOnClick} to="/gif">GIF</Nav.Link>
-                <NavDropdown
+                {/* <NavDropdown
                   title="Photography"
                   id={`offcanvasNavbarDropdown-expand-${expanded}-2`}
                 >
@@ -66,9 +66,9 @@ export const Header = () => {
                   <NavDropdown.Item as={Link} onClick={linkOnClick} to="/london">
                     London
                   </NavDropdown.Item>
-                </NavDropdown>
+                </NavDropdown> */}
                 <Nav.Link as={Link} onClick={linkOnClick} to="/contact">Contact</Nav.Link>
-                <Nav.Link as={Link} onClick={linkOnClick} to="/supportme">$upport Me</Nav.Link>
+                {/* <Nav.Link as={Link} onClick={linkOnClick} to="/supportme">$upport Me</Nav.Link> */}
               </Nav>
 
             </Offcanvas.Body>
